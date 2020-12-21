@@ -47,21 +47,42 @@ class _XylophoneState extends State<Xylophone> {
     return Scaffold(
       backgroundColor: Colors.black,
       body: SafeArea(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            buildKey(Colors.red, 'C', 1),
-            buildKey(Colors.orange, 'D', 2),
-            buildKey(Colors.yellow, 'E', 3),
-            buildKey(Colors.green, 'F', 4),
-            buildKey(Colors.teal, 'G', 5),
-            buildKey(Colors.blue, 'A', 6),
-            buildKey(Colors.purple, 'B', 7),
-            buildKey(Colors.pinkAccent, 'C', 8),
-          ],
+        child: OrientationBuilder(
+          builder: (context, orientation) {
+            return orientation == Orientation.portrait
+                ? buildPortraitLayout()
+                : buildLandscapeLayout();
+          },
         ),
       ),
     );
+  }
+
+  Widget buildPortraitLayout() {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: buildKeys(),
+    );
+  }
+
+  Widget buildLandscapeLayout() {
+    return Row(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: buildKeys(),
+    );
+  }
+
+  buildKeys() {
+    return [
+      buildKey(Colors.red, 'C', 1),
+      buildKey(Colors.orange, 'D', 2),
+      buildKey(Colors.yellow, 'E', 3),
+      buildKey(Colors.green, 'F', 4),
+      buildKey(Colors.teal, 'G', 5),
+      buildKey(Colors.blue, 'A', 6),
+      buildKey(Colors.purple, 'B', 7),
+      buildKey(Colors.pinkAccent, 'C', 8),
+    ];
   }
 
   Expanded buildKey(Color color, String noteKey, int noteNumber) {

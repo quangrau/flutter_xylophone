@@ -10,20 +10,19 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:xylophone/main.dart';
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
+  testWidgets('XylophoneApp smoke test', (WidgetTester tester) async {
+    final keyWidgetButton = FlatButton();
+
     // Build our app and trigger a frame.
     await tester.pumpWidget(XylophoneApp());
 
-    // Verify that our counter starts at 0.
-    expect(find.text('0'), findsOneWidget);
-    expect(find.text('1'), findsNothing);
-
-    // Tap the '+' icon and trigger a frame.
-    await tester.tap(find.byIcon(Icons.add));
-    await tester.pump();
-
-    // Verify that our counter has incremented.
-    expect(find.text('0'), findsNothing);
-    expect(find.text('1'), findsOneWidget);
+    // Build with all 8 key notes
+    expect(find.text('C'), findsNWidgets(2));
+    expect(find.text('D'), findsOneWidget);
+    expect(find.text('E'), findsOneWidget);
+    expect(find.text('F'), findsOneWidget);
+    expect(find.text('G'), findsOneWidget);
+    expect(find.text('A'), findsOneWidget);
+    expect(find.text('B'), findsOneWidget);
   });
 }
