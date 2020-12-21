@@ -7,14 +7,23 @@
 A musical instrument Flutter app.
 
 ## My Goal
+
 WIP
 
 ## App Features
+
 WIP
 
-## What Did I learned
+## What Did I Learn
+
 WIP
 
 ## Assets
+
 - [Sound](https://freesound.org/search/?q=xylophone): All records are free and provided by Freesound.org
 - [Illustration](https://www.vecteezy.com/vector-art/138544-free-flat-marimba-vector-icons): Free Flat Marimba Vector Icons Vectors by @nightwolfdezines
+
+## Screenshot
+
+<img src="./mockup/ios.png" data-canonical-src="./mockup/ios.png" height="600" />
+<img src="./mockup/android.png" data-canonical-src="./mockup/android.png" height="600" />
