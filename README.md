@@ -1,8 +1,8 @@
 [![Codemagic build status](https://api.codemagic.io/apps/5fe0dab715bfd1fb13fbc620/5fe0dab715bfd1fb13fbc61f/status_badge.svg)](https://codemagic.io/apps/5fe0dab715bfd1fb13fbc620/5fe0dab715bfd1fb13fbc61f/latest_build)
 
-# Flutter Xylophone App ![End Banner](./appstore.png | width=60)
+# Flutter Xylophone App
 
-A new Flutter application.
+![App Icon](./appstore.png | width=60)
 
 ## Getting Started
 
