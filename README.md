@@ -1,6 +1,6 @@
 [![Codemagic build status](https://api.codemagic.io/apps/5fe0dab715bfd1fb13fbc620/5fe0dab715bfd1fb13fbc61f/status_badge.svg)](https://codemagic.io/apps/5fe0dab715bfd1fb13fbc620/5fe0dab715bfd1fb13fbc61f/latest_build)
 
-# xylophone
+# Flutter Xylophone App ![End Banner](./appstore.png)
 
 A new Flutter application.
 
