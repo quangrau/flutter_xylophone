@@ -2,7 +2,7 @@
 
 # Flutter Xylophone App
 
-![App Icon](./appstore.png | width=60)
+![App Icon](./appstore.png)
 
 ## Getting Started
 
