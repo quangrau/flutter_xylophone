@@ -5,15 +5,11 @@
 // gestures. You can also use WidgetTester to find child widgets in the widget
 // tree, read text, and verify that the values of widget properties are correct.
 
-import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:xylophone/main.dart';
 
 void main() {
-  testWidgets('XylophoneApp smoke test', (WidgetTester tester) async {
-    final keyWidgetButton = FlatButton();
-
-    // Build our app and trigger a frame.
+  testWidgets('Build with 8 key notes', (WidgetTester tester) async {
     await tester.pumpWidget(XylophoneApp());
 
     // Build with all 8 key notes

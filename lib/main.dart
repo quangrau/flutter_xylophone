@@ -50,42 +50,42 @@ class _XylophoneState extends State<Xylophone> {
         child: OrientationBuilder(
           builder: (context, orientation) {
             return orientation == Orientation.portrait
-                ? buildPortraitLayout()
-                : buildLandscapeLayout();
+                ? _buildPortraitLayout()
+                : _buildLandscapeLayout();
           },
         ),
       ),
     );
   }
 
-  Widget buildPortraitLayout() {
+  Column _buildPortraitLayout() {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
-      children: buildKeys(),
+      children: _buildKeys(),
     );
   }
 
-  Widget buildLandscapeLayout() {
+  Row _buildLandscapeLayout() {
     return Row(
       crossAxisAlignment: CrossAxisAlignment.stretch,
-      children: buildKeys(),
+      children: _buildKeys(),
     );
   }
 
-  buildKeys() {
+  _buildKeys() {
     return [
-      buildKey(Colors.red, 'C', 1),
-      buildKey(Colors.orange, 'D', 2),
-      buildKey(Colors.yellow, 'E', 3),
-      buildKey(Colors.green, 'F', 4),
-      buildKey(Colors.teal, 'G', 5),
-      buildKey(Colors.blue, 'A', 6),
-      buildKey(Colors.purple, 'B', 7),
-      buildKey(Colors.pinkAccent, 'C', 8),
+      _buildKey(Colors.red, 'C', 1),
+      _buildKey(Colors.orange, 'D', 2),
+      _buildKey(Colors.yellow, 'E', 3),
+      _buildKey(Colors.green, 'F', 4),
+      _buildKey(Colors.teal, 'G', 5),
+      _buildKey(Colors.blue, 'A', 6),
+      _buildKey(Colors.purple, 'B', 7),
+      _buildKey(Colors.pinkAccent, 'C', 8),
     ];
   }
 
-  Expanded buildKey(Color color, String noteKey, int noteNumber) {
+  Expanded _buildKey(Color color, String noteKey, int noteNumber) {
     return Expanded(
       child: FlatButton(
         color: color,
