@@ -1,3 +1,5 @@
+[![Codemagic build status](https://api.codemagic.io/apps/5fe0dab715bfd1fb13fbc620/5fe0dab715bfd1fb13fbc61f/status_badge.svg)](https://codemagic.io/apps/5fe0dab715bfd1fb13fbc620/5fe0dab715bfd1fb13fbc61f/latest_build)
+
 # xylophone
 
 A new Flutter application.
