@@ -1,6 +1,6 @@
 [![Codemagic build status](https://api.codemagic.io/apps/5fe0dab715bfd1fb13fbc620/5fe0dab715bfd1fb13fbc61f/status_badge.svg)](https://codemagic.io/apps/5fe0dab715bfd1fb13fbc620/5fe0dab715bfd1fb13fbc61f/latest_build)
 
-# Flutter Xylophone App
+# Flutter Xylophone App ![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
 
 ![App Icon](./appstore.png)
 
