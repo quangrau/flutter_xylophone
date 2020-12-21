@@ -25,5 +25,7 @@ WIP
 
 ## Screenshot
 
-<img src="./mockup/ios.png" data-canonical-src="./mockup/ios.png" height="600" />
-<img src="./mockup/android.png" data-canonical-src="./mockup/android.png" height="600" />
+<div align="left">
+  <img src="./mockup/android.png" data-canonical-src="./mockup/android.png" height="600" />
+  <img src="./mockup/ios.png" data-canonical-src="./mockup/ios.png" height="600" />
+</div>
