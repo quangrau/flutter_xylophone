@@ -1,16 +1,20 @@
-# xylophone
+[![Codemagic build status](https://api.codemagic.io/apps/5fe0dab715bfd1fb13fbc620/5fe0dab715bfd1fb13fbc61f/status_badge.svg)](https://codemagic.io/apps/5fe0dab715bfd1fb13fbc620/5fe0dab715bfd1fb13fbc61f/latest_build)
 
-A new Flutter application.
+<img src="./appstore.png" data-canonical-src="./appstore" width="100" height="100" />
 
-## Getting Started
+# Flutter Xylophone
 
-This project is a starting point for a Flutter application.
+A musical instrument Flutter app.
 
-A few resources to get you started if this is your first Flutter project:
+## My Goal
+WIP
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## App Features
+WIP
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## What Did I learned
+WIP
+
+## Assets
+- [Sound](https://freesound.org/search/?q=xylophone): All records are free and provided by Freesound.org
+- [Illustration](https://www.vecteezy.com/vector-art/138544-free-flat-marimba-vector-icons): Free Flat Marimba Vector Icons Vectors by @nightwolfdezines
